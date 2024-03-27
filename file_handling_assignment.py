@@ -29,9 +29,9 @@ def append_to_file():
         # Open "my_file.txt" in append mode ('a')
         with open("my_file.txt", "a") as file:
             # Append three additional lines of text to the existing content
-            file.write("Appending line 4.\n")
-            file.write("Line 5: More text added.\n")
-            file.write("Line 6: End of the file.\n")
+            file.write("I'm looking foward to learn more.\n")
+            file.write("This is my github profile;https://github/Muhindisk.\n")
+            file.write("End of the file.\n")
     except (FileNotFoundError, PermissionError) as e:
         print("Error occurred while appending to the file:", e)
 
